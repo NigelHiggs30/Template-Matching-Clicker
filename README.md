@@ -2,6 +2,9 @@
 
 This code takes a screenshot of the desktop and uses template matching to find a specific image within the screenshot. It then calculates the average position of the image in the screenshot and clicks on it. The code uses the PyAutoGUI, OpenCV, and NumPy libraries to perform these tasks.
 
+## Reason
+I found pyautogui.locateOnScreen to be extremely slow, so I wrote my own functions that use numpy, opencv and PIL to make locating icons on screen much faster!!!
+
 ## Dependencies
 ```
 PyAutoGUI

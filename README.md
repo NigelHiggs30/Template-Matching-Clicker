@@ -7,6 +7,7 @@ This code takes a screenshot of the desktop and uses template matching to find a
 PyAutoGUI
 OpenCV
 NumPy
+PIL
 ```
 ## Usage
 To use the code, specify the path to the target image in the CheckSubpic function. The code will take a screenshot of the desktop, search for the image within the screenshot, and click on the image if it is found.

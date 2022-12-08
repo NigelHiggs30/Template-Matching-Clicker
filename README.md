@@ -3,9 +3,11 @@
 This code takes a screenshot of the desktop and uses template matching to find a specific image within the screenshot. It then calculates the average position of the image in the screenshot and clicks on it. The code uses the PyAutoGUI, OpenCV, and NumPy libraries to perform these tasks.
 
 ## Dependencies
+```
 PyAutoGUI
 OpenCV
 NumPy
+```
 ## Usage
 To use the code, specify the path to the target image in the CheckSubpic function. The code will take a screenshot of the desktop, search for the image within the screenshot, and click on the image if it is found.
 
